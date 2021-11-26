@@ -1,6 +1,10 @@
 ## 从 pip 安装
 
+从Pypi库安装（前提是把sdk上传到Pypi）
 `pip install python-sdk`
+
+本地安装
+`pip install -U /home/lixi/PycharmProjects/python-sdk/dist/python_sdk-1.0.2-py3-none-any.whl`
 
 ## 使用方法
 
@@ -9,6 +13,7 @@
 比如：
 
 `from python_sdk import say_hello'`
+
 ## 本地打包安装
 
 ### 打包
@@ -22,7 +27,6 @@
 `python setup.py bdist_wheel`
 
 在 `dist` 目录下会生成类似 `python_sdk-1.0.0-py3-none-any.whl` 的安装包。
-
 
 ### 本地安装
 

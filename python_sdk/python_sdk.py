@@ -1,5 +1,5 @@
 def zhiyan_sdk_demo():
-    print("A demo for python package.")
+    print("hello world.")
 
 
 if __name__ == '__main__':
