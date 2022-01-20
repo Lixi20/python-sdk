@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package zhiyan_rpc;
+
+service ZhiYan {
+  rpc zymod (ZhiYanRequest) returns (ZhiYanResponse) {}
+}
+
+message ZhiYanRequest {
+  string name = 1;
+  int64 datetime = 2;
+  string content = 3;
+}
+
+message ZhiYanResponse {
+  string code = 1;
+  string message = 2;
+}
